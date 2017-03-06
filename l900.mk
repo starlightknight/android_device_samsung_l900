@@ -33,5 +33,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Include common makefile
 $(call inherit-product, device/samsung/t0lte/common.mk)
-
-$(call inherit-product-if-exists, vendor/samsung/t0ltecdma/t0ltecdma-vendor.mk)
